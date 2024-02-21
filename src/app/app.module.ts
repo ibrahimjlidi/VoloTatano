@@ -14,6 +14,7 @@ import { SearchComponent } from './pages/website/search/search.component';
 import { BookiFlightComponent } from './pages/website/booki-flight/booki-flight.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
+import { MyBookingsComponent } from './pages/website/my-bookings/my-bookings.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import {HttpClientModule} from '@angular/common/http';
     NewFlightComponent,
     AllFlightsComponent,
     SearchComponent,
-    BookiFlightComponent
+    BookiFlightComponent,
+    MyBookingsComponent
   ],
   imports: [
     BrowserModule,

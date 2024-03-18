@@ -15,4 +15,5 @@ export class CityService {
   getCities(): Observable<City[]> {
     return this.http.get<City[]>(this.baseUrl);
   }
+
 }
